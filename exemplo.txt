@@ -1,7 +1,6 @@
-# Meu primeiro programa para a CPU simulada
-LOAD R0, 5         # Coloca 5 em R0
-LOAD R1, 12        # Coloca 12 em R1
-ADD R0, R1         # Soma R0 + R1 → R0 = 17
-STORE [30], R0     # Armazena 17 na posição 30 da memória
-LOAD R2, [30]      # Carrega valor da memória[30] em R2
-HLT                # Fim do programa
+LOAD R0, 5         
+LOAD R1, 12        
+ADD R0, R1         
+STORE [30], R0     
+LOAD R2, [30]      
+HLT                
